@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO USUARIO </title>
+</head>
+<body>
+    <form action=""></form>
+    <div>
+        <center>
+            <h1>
+                <label for="BIENVENIDO "> ¡¡BIENVENIDO !!
+                     </label>
+
+                    
+               
+            </h1>
+            <label for="A CONTINUACION "> A CONTINUACION LLENE LOS CAMPOS REQUERIDOS 
+                EN ESTE FORMULARIO </label>
+        </center>
+        
+    </div>
+    <div>
+        <h4> DATOS PERSONALES </h4>
+    </div>
+    <div>  
+        <label for="NOMBRE">INGRESE SU NOMBRE </label>
+        <input type="text" name="NOMBRE " required placeholder="INGRESE SU NOMBRE  " id="NOMBRE" >
+    </div>
+    <div>
+        <label for="EDAD ">INGRESE SU EDAD </label>
+        <input type="number"  step="1" min="0" max="50 " value="10" name="EDAD " >
+
+    </div>
+    <div>
+        <label for="">INGRESE SU TELEFONO </label>
+        <input type="texto "       id="telefono "  placeholder=" eje: 320....08" pattern=[0,-10] required >
+    </div>
+    <div>
+        <label for="text">INGRESE SU NUMERO DE IDENTIDAD </label>
+        <input type="text " id placeholder="10......57" pattern="[0,10]" required>
+    </div>
+    <div>
+        <div><label for="text">INGRESE SU CIUDAD  </label>
+            <select name="ciudad" id="ciudad">
+              <option value="1">Bucaramanga</option>
+              <option value="2">Giron</option>
+              <option value="3" selected>Florida</option>
+            </select>
+        </div>
+        <h4>
+            <label for="seleccion "> SELECIONE SU GENERO </label>
+        </h4>
+       
+    </div>
+     <div>
+        <label for="con cual genero te identificas "> ¿ Con cual genero te identificas ?</label>
+     </div>
+   
+      <div>
+        <h4>
+            <label class="radio-inline">
+                <input type="radio" name="genero" value="masculino" checked>Masculino  </label>
+                <label class="radio-inline">
+                <input type="radio" name="genero" value="femenino">Femenino </label>
+                <label class="radio-inline">
+                    <input type="radio" name="genero" value="no quiero responder  " checked> No quiero responder 
+                </label>
+        </h4>
+        <div>
+            <h4>Seleccione lo que le guste hacer  en sus ratos libres </h4>
+            <input type="checkbox" name="leer">
+            <label  for="text "> Leer </label>
+            <input type="checkbox" name="futbol">
+            <label  for="text "> Futboll</label>
+            <input type="checkbox" name="jugar videos juegos ">
+            <label  for="text "> Jugar videos juegos </label>
+            <input type="checkbox" name="hacer ejercicio ">
+            <label  for="text "> Ejercico  </label>
+            <input type="checkbox" name="gym">
+            <label  for="text "> Gym  </label>
+
+            
+        </div>
+        <div>
+            <h4>
+                <label for="text">  Seleccione y cargue el documento de identidad </label>
+            </h4>
+            
+            <select name="documento " id="documento ">
+                <option value="1">T.I</option>
+                <option value="2">C.C </option>
+                <option value="3" >C.EXTRAJERO </option>
+              </select>
+            <input accept="image/*" multiple type="file">
+
+        </div>
+
+      </div>
+      
+      <div>
+        <h3><button type="submit"> ENVIAR </button></h3>
+    </div>
+
+</body>
+</html>

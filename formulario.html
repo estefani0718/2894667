@@ -31,9 +31,37 @@
        <label for="telefono"> ingrese su telefono </label>
        <input type="texto "       id="telefono "  placeholder=" eje: 3204220884" pattern=[0,-9] required >
        </div>
-       <div>
+       <div><label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" required placeholder="Ingrese su Nombre" id="Nombre" autofocus
+          autocomplete="off">
+        <div><label for="color">seleccione el color:</label><input type="color">
+          <div><label for="email">Ingrese su email:</label><input type="text" name="email" required
+              placeholder="Ingrese su Email" id="email" autofocus autocomplete="off">
+            <div><label for="Numero">Ingrese su Numero:</label><input type="text" name="Numero" required
+                placeholder="Ingrese su Numero" id="Numero" autofocus autocomplete="off">
+              <div></div>
+              <div><label for="text">Ingrese su ciudad:</label>
+                <select name="ciudad" id="ciudad">
+                  <option value="1">bucaramanga</option>
+                  <option value="2">giron</option>
+                  <option value="3" selected>florida</option>
+                </select>
+              </div>
+              <label class="radio-inline">
+                <input type="radio" name="genero" value="masculino" checked>masculino</label>
+              <label class="radio-inline">
+                <input type="radio" name="genero" value="femenino">femenino</label>
+              <div>
 
-       </div>
+                <div><label for=""><input type="checkbox" name="" checked>html</label></div>
+                <div><label for=""><input type="checkbox" name="" checked>git</label></div>
+                <div><label for=""><input type="checkbox" name="" checked>cli</label></div>
+                <div><label for=""><input type="checkbox" name="">js</label></div>
+                <input accept="image/*" multiple type="file">
+
+                <div><button type="submit">Guardar</button></div>
+
+
        
          
 
